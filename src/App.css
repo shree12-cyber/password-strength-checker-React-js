@@ -1,0 +1,44 @@
+.App {
+    text-align: center;
+    padding-top: 100px;
+}
+
+input {
+    width: 280px;
+    height: 30px;
+    font-size: 17px;
+}
+
+#pw-strength .strength-item {
+    width: 70px;
+    background: #e2e2e2;
+    height: 5px;
+    display: inline-block;
+    margin: 0 1px;
+    border-radius: 10px;
+}
+
+#pw-strength .strength-item.active:nth-child(1) {
+    background: #ff4747;
+}
+
+#pw-strength .strength-item.active:nth-child(2) {
+    background: #ff9a1e;
+}
+
+#pw-strength .strength-item.active:nth-child(3) {
+    background: #e9e90e;
+}
+
+#pw-strength .strength-item.active:nth-child(4) {
+    background: #2add2a;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul li {
+    font-weight: 600;
+}
